@@ -198,5 +198,6 @@ SELECT
     (SELECT ChannelID FROM Channel WHERE ChannelName = Pharm_sales.Channel AND SubChannel = Pharm_sales.&quot;Sub-channel&quot;),
     (SELECT LocationID FROM Location WHERE City = Pharm_sales.City AND Country = Pharm_sales.Country),
     Quantity, Price, Sales, Month, Year
-FROM Pharm_sales; </sql><sql name="&amp;Integrity Check*">--- conduct data integrity check
+FROM Pharm_sales; </sql><sql name="&amp;Integrity Check*">--- conduct data integrity check
+
 PRAGMA integrity_check;</sql><current_tab id="3"/></tab_sql></sqlb_project>
